@@ -156,3 +156,12 @@ def resolve_url(to, *args, **kwargs):
 
     # Finally, fall back and assume it's a URL
     return to
+
+
+def make_toast():
+    """
+    This method was create only to learn how to
+    solve my first ticket on django.
+    The method need to return the word "toast" as final result
+    """
+    return 'toast'
